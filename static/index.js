@@ -343,8 +343,8 @@ function shareText(score) {
     SubmitResults();
     if (score <= 59) return '拉菲：我不接受！';
     if (score <= 79) return '拉菲：我不接受！';
-    if (score <= 109) return '你一定单身吧！';
-    if (score <= 119) return '你一定单身吧！';
+    if (score <= 109) return '手速那么快，你一定单身吧！';
+    if (score <= 119) return '手速那么快，你一定单身吧！';
     return '';
 }
 
